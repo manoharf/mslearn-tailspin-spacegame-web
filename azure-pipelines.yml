@@ -1,9 +1,9 @@
 trigger:
 
-- '*'
+- build-agent
 
 pool:
-  vmImage: 'ubuntu-latest'
+  name: 'myagentpool'
   demands:
   - npm
 
