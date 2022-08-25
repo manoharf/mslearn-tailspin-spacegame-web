@@ -2,7 +2,7 @@ trigger:
 - main
 
 pool:
-  name: 'myagentpool'
+  vmImage: 'ubuntu-latest'
   demands:
   - npm
 
